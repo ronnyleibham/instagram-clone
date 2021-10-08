@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.header--search {
+  justify-content: center;
+}
+
 .icon-container {
   display: flex;
   border: 1px solid var(--color-secondary-lighter-grey);
@@ -30,7 +34,4 @@
   border-radius: 50%;
   border: 1px solid;
   background-color: var(--color-primary-social-pink);
-}
-.search-header {
-  background-color: black;
 }
