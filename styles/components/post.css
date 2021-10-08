@@ -45,4 +45,39 @@
 
 .post__icons {
   grid-area: icons;
+  font-size: 0.75rem;
+}
+
+.post__icon--thumb::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f164";
+  margin-right: 0.5rem;
+}
+
+.post__icon--bubble::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f086";
+  margin-right: 0.5rem;
+}
+
+.post__icon--share::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f064";
+  margin-right: 0.5rem;
+}
+
+.post__burger-menu::before {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f142";
+  margin-right: 0.5rem;
+  color: var(--color-secondary-lighter-grey);
+}
+
+.post__bookmark {
+  margin-right: 0.5rem;
+  grid-area: bookmark;
 }
