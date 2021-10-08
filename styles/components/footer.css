@@ -1,3 +1,20 @@
 .footer {
-  background-color: blue;
+  background-color: var(--color-pure-black);
+  border: 1px solid white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigation__icon--grey {
+  color: var(--color-secondary-lighter-grey);
+}
+
+.navigation__icon--plus {
+  background: var(--color-primary-gradient);
+  padding: 1rem;
+  border-radius: 50%;
 }
