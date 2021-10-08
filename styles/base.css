@@ -5,9 +5,13 @@
 }
 
 body {
+  color: var(--color-primary-white);
   margin: 0;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100px auto 90px;
 }
 
 /* Remove default padding */

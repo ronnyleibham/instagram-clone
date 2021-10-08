@@ -1,0 +1,15 @@
+.text--light-grey {
+  color: var(--color-secondary-dark-grey);
+}
+
+.text--dark-grey {
+  color: var(--color-secondary-lighter-grey);
+}
+
+.text--pink {
+  color: var(--color-primary-social-pink);
+}
+
+.text--blue {
+  color: var(--color-primary-social-blue);
+}
