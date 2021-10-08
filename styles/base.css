@@ -8,7 +8,6 @@ body {
   color: var(--color-primary-white);
   background-color: var(--color-background);
   margin: 0;
-  /* padding: 0 24px; */
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   height: 100vh;
