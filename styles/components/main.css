@@ -1,3 +1,4 @@
 .main {
-  background-color: aquamarine;
+  background-color: var(--color-background);
+  border: 1px solid white;
 }
