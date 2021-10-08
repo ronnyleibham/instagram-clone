@@ -1,4 +1,4 @@
 .main {
   background-color: var(--color-background);
-  border: 1px solid white;
+  overflow-y: auto;
 }
