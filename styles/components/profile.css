@@ -75,3 +75,12 @@
 .card-edit-profile-button:hover {
   background-color: var(--color-primary-social-pink);
 }
+
+.filter-posts {
+  display: flex;
+  margin-bottom: 11px !important;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
