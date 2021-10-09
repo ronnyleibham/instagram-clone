@@ -14,6 +14,9 @@
   color: var(--color-primary-social-blue);
 }
 
+.text--uppercase {
+  text-transform: uppercase;
+}
 .mr-1rem {
   margin-right: 1rem;
 }
@@ -29,6 +32,11 @@
 .fw-500 {
   font-weight: 500;
 }
+
+.fw-100 {
+  font-weight: 100;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
