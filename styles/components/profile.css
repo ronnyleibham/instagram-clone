@@ -1,0 +1,77 @@
+.section-profile {
+  width: 100%;
+  text-align: center;
+}
+
+.img-profile {
+  display: block;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  border: double 4px transparent;
+  border-radius: 50%;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at top left, #f62e8e, #ac1af0);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.card--profile {
+  position: relative;
+  top: -90px;
+  width: 100%;
+}
+
+.card--name {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card--city {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-secondary-lighter-grey);
+  margin-bottom: 10px;
+}
+
+.card--slogan {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-primary-social-white);
+  margin-bottom: 10px;
+}
+
+.card-social-infos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: -70px;
+}
+
+.card-list-item {
+  padding: 0;
+  list-style: none;
+}
+
+.card-list-item--li {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-secondary-lighter-grey);
+}
+
+.card-edit-profile-button {
+  padding: 10px 30px;
+  border: 1px solid;
+  border-radius: 30px;
+  border-color: var(--color-secondary-lighter-grey);
+}
+
+.card-edit-profile-button:hover {
+  background-color: var(--color-primary-social-pink);
+}
