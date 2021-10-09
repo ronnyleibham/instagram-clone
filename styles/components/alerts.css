@@ -7,7 +7,14 @@
 .alert__entry {
   display: grid;
   grid-template-columns: 40px 1fr;
+  grid-gap: 40px;
 }
+
+.alert__gap {
+  display: grid;
+  grid-gap: 10px;
+}
+
 .alert__background {
   background-color: var(--color-secondary-dark-grey);
   display: inline-block;
@@ -26,4 +33,9 @@
 .alert__text {
   display: grid;
   padding-left: 15px;
+}
+
+.text--separater {
+  font-size: 13px;
+  color: var(--color-secondary-lighter-grey);
 }
