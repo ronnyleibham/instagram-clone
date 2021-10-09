@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.header--search {
+  justify-content: center;
+}
+
 .icon-container {
   display: flex;
   border: 1px solid var(--color-secondary-lighter-grey);
