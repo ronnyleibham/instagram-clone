@@ -5,6 +5,13 @@
   bottom: 0;
 }
 
+.footer__post-view {
+  display: felx;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
 .navigation {
   display: flex;
   justify-content: space-around;
