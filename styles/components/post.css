@@ -36,6 +36,21 @@
   color: var(--color-secondary-lighter-grey);
 }
 
+.post {
+  border-bottom: 1px solid var(--color-secondary-dark-grey);
+  border-top: 1px solid var(--color-secondary-dark-grey);
+  padding: 1rem 1.5rem;
+  display: grid;
+  width: 100%;
+  grid-template-rows: 34px auto 20px;
+  grid-template-columns: auto 20px;
+  gap: 1.5rem;
+}
+
+.post--no-topline {
+  border-top: none;
+}
+
 .post__text {
   grid-row: 2 / 3;
   grid-column: 1 / 2;
@@ -48,6 +63,13 @@
   width: 100%;
   height: auto;
   border-radius: 16px;
+  grid-column: 1 / 3;
+}
+
+.post__slider {
+  overflow: auto;
+  white-space: nowrap;
+  display: block;
   grid-column: 1 / 3;
 }
 

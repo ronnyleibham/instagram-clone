@@ -11,7 +11,7 @@
 
   <body>
     <header class="header px-1-5rem">
-      <h1>Good, Morning, Alex.</h1>
+      <h1>Good Morning, Alex.</h1>
       <div class="icon-container">
         <i class="icon-container__icon fa fa-envelope"> </i>
         <span class="icon-container__badge"></span>
@@ -19,7 +19,43 @@
     </header>
 
     <main class="main">
-      <section>Newsfeed</section>
+      <section class="newsfeed">
+          <ul class="newsfeed__list">
+            <li>
+              <div class="content-container">
+                <img class="content-container__image" src="https://source.unsplash.com/200x280?nature" alt="newsfeed image">
+                <div class="content-container__wrapper">
+                  <img class="content-container__wrapper--avatar" src="https://source.unsplash.com/100x100/?men" alt="newsfeed user">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="content-container">
+                <img class="content-container__image" src="https://source.unsplash.com/200x280?airplane" alt="newsfeed image">
+                <div class="content-container__wrapper">
+                  <img class="content-container__wrapper--avatar" src="https://source.unsplash.com/100x100/?women" alt="newsfeed user">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="content-container">
+                <img class="content-container__image" src="https://source.unsplash.com/200x280?car" alt="newsfeed image">
+                <div class="content-container__wrapper">
+                  <img class="content-container__wrapper--avatar" src="https://source.unsplash.com/100x100/?boy" alt="newsfeed user">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="content-container">
+                <img class="content-container__image" src="https://source.unsplash.com/200x280?family" alt="newsfeed image">
+                <div class="content-container__wrapper">
+                  <img class="content-container__wrapper--avatar" src="https://source.unsplash.com/100x100/?plumber" alt="newsfeed user">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+      </section>
       <section class="post">
         <div class="avatar">
           <img
@@ -64,7 +100,53 @@
         <div class="avatar">
           <img
             class="avatar__image"
-            src="https://source.unsplash.com/100x100/?faces"
+            src="https://source.unsplash.com/100x100/?student"
+            alt=""
+          />
+          <h2 class="avatar__heading">Kat Williams</h2>
+          <span class="avatar__timespan">1h ago</span>
+        </div>
+        <span class="post__burger-menu"></span>
+        <div class="post__slider">
+          <img
+            class="post__image"
+            src="https://source.unsplash.com/495x270?nature"
+            alt=""
+          />
+          <img
+            class="post__image"
+            src="https://source.unsplash.com/random/495x270"
+            alt=""
+          />
+        </div>
+
+        <div class="post__icons">
+          <span class="post__icon--thumb mr-1rem">42</span>
+          <span class="post__icon--bubble mr-1rem">9</span>
+          <span class="post__icon--share mr-1rem">27</span>
+        </div>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="far"
+          data-icon="bookmark"
+          class="post__bookmark svg-inline--fa fa-bookmark"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 384 512"
+        >
+          <path
+            fill="currentColor"
+            d="M336 0h-288C21.49 0 0 21.49 0 48v431.9c0 24.7 26.79 40.08 48.12 27.64L192 423.6l143.9 83.93C357.2 519.1 384 504.6 384 479.9V48C384 21.49 362.5 0 336 0zM336 452L192 368l-144 84V54C48 50.63 50.63 48 53.1 48h276C333.4 48 336 50.63 336 54V452z"
+          ></path>
+        </svg>
+      </section>
+
+      <section class="post">
+        <div class="avatar">
+          <img
+            class="avatar__image"
+            src="https://source.unsplash.com/100x100/?photographer"
             alt=""
           />
           <h2 class="avatar__heading">Tony Monta</h2>
@@ -109,7 +191,7 @@
         <span class="post__burger-menu"></span>
         <img
           class="post__image"
-          src="https://source.unsplash.com/random/495x270"
+          src="https://source.unsplash.com/495x270?art"
           alt=""
         />
         <div class="post__icons">
@@ -138,22 +220,22 @@
         <div class="avatar">
           <img
             class="avatar__image"
-            src="https://source.unsplash.com/100x100/?faces"
+            src="https://source.unsplash.com/100x100/?teen"
             alt=""
           />
-          <h2 class="avatar__heading">Jacob Washington</h2>
-          <span class="avatar__timespan">20m ago</span>
+          <h2 class="avatar__heading">Dustin Grant</h2>
+          <span class="avatar__timespan">3h ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <img
           class="post__image"
-          src="https://source.unsplash.com/random/495x270"
+          src="https://source.unsplash.com/495x270/?berlin"
           alt=""
         />
         <div class="post__icons">
-          <span class="post__icon--thumb mr-1rem">17</span>
-          <span class="post__icon--bubble mr-1rem">2</span>
-          <span class="post__icon--share mr-1rem"></span>
+          <span class="post__icon--thumb mr-1rem">238</span>
+          <span class="post__icon--bubble mr-1rem">14</span>
+          <span class="post__icon--share mr-1rem">4</span>
         </div>
         <svg
           aria-hidden="true"
