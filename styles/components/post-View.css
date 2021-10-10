@@ -34,3 +34,17 @@
   border-radius: 50%;
   border: none;
 }
+
+.post-view__comment-list {
+  display: grid;
+  grid-template-columns: 70px 1fr 50px;
+}
+
+.post-view__avatar {
+  justify-self: center;
+  margin-left: 40px;
+}
+.post-View__comments-line {
+  display: grid;
+  grid-template-columns: 1fr 70px 30px;
+}
