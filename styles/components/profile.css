@@ -30,6 +30,14 @@
   margin-bottom: 10px;
 }
 
+.card-name--generalprofile {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+
 .card--city {
   display: block;
   font-size: 0.9rem;
@@ -74,6 +82,18 @@
 
 .card-edit-profile-button:hover {
   background-color: var(--color-primary-social-pink);
+}
+
+.card-follow-button {
+  padding: 10px 30px;
+  border: 1px solid;
+  border-radius: 30px;
+  border-color: var(--color-primary-social-pink);
+  background-color: var(--color-primary-social-pink);
+}
+
+.card-follow-button:hover {
+  background-color: transparent;
 }
 
 .filter-posts {
