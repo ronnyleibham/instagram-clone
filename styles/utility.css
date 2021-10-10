@@ -14,9 +14,17 @@
   color: var(--color-primary-social-blue);
 }
 
+.text--underline {
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary-social-blue);
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
+}
+
 .text--uppercase {
   text-transform: uppercase;
 }
+
 .mr-1rem {
   margin-right: 1rem;
 }
