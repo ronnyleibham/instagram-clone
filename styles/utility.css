@@ -56,3 +56,7 @@
   filter: grayscale(50%);
   color: var(--color-secondary-lighter-grey);
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
