@@ -16,8 +16,8 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.body--profile {
-  grid-template-rows: 150px auto 90px;
+.grid--profile {
+  grid-template-rows: 180px auto 90px;
 }
 
 /* Remove default padding */
