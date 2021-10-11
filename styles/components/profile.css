@@ -85,9 +85,9 @@
   font-weight: 500;
 }
 
-/* Following classes can be found under generalprofile.html and are yet not BEM'ed */
+/* Following classes are used on similar generalprofile.html */
 
-.card-name--general-profile {
+.profile__card-name--general-profile {
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
@@ -95,7 +95,7 @@
   margin-left: 50px;
 }
 
-.card-follow-button {
+.profile__follow-button {
   padding: 10px 30px;
   border: 1px solid;
   border-radius: 30px;
@@ -103,6 +103,6 @@
   background-color: var(--color-primary-social-pink);
 }
 
-.card-follow-button:hover {
+.profile__follow-button:hover {
   background-color: transparent;
 }

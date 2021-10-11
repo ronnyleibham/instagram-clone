@@ -14,6 +14,11 @@
   background-size: cover;
 }
 
+.header--general-profile {
+  align-items: flex-start;
+  background-image: url(https://source.unsplash.com/750x320/?neon);
+}
+
 .header--profile::before {
   content: '';
   position: absolute;

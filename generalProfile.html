@@ -11,38 +11,41 @@
 
   <body class="grid--profile">
     <header class="header header--profile header--general-profile px-1-5rem">
-      <div class="icon-container">
-        <i class="icon-container__icon fa fa-arrow-left"> </i>
+      <div class="header__icon-container">
+        <i class="header__icon fa fa-arrow-left"> </i>
+        <span class="sr-only">back to last page</span>
       </div>
     </header>
 
     <main class="main main--profile">
-      <section class="section-profile px-1-5rem">
-        <div class="card--profile">
+      <section class="profile px-1-5rem">
+        <div class="profile__card">
           <img
-            class="img-profile"
+            class="profile__card-img"
             src="https://source.unsplash.com/500x500/?faces"
             alt=""
           />
           <div>
-            <h1 class="card-name--generalprofile">Profile Name</h1>
-            <i class="icon-container icon-container__icon fa fa-envelope"> </i>
+            <h1 class="profile__card-name--general-profile">Profile Name</h1>
+            <i class="header__icon-container iheader__icon fa fa-envelope"> </i>
           </div>
-          <h2 class="card--city">Stadt, Land</h2>
-          <p class="card--slogan">You have to taste to know it's waste.</p>
+          <h2 class="profile__card-city">Stadt, Land</h2>
+          <p class="profile__card-slogan">
+            You have to taste to know it's waste.
+          </p>
         </div>
-        <div class="card-social-infos">
-          <ul class="card-list-item">
+        <div class="profile__card-social-infos">
+          <ul class="profile__card-list">
             <li>2,467</li>
-            <li class="card-list-item--li">Followers</li>
+            <li class="profile__card-list-item">Followers</li>
           </ul>
-          <ul class="card-list-item">
+          <ul class="profile__card-list">
             <li>1,589</li>
-            <li class="card-list-item--li">Following</li>
+            <li class="profile__card-list-item">Following</li>
           </ul>
-          <p class="card-follow-button">Follow</p>
+          <p class="profile__follow-button">Follow</p>
         </div>
-        <ul class="filter-posts">
+        <ul class="profile__filter-posts">
           <li class="text--underline">Posts</li>
           <li class="text--dark-grey">Stories</li>
           <li class="text--dark-grey">Liked</li>
@@ -50,14 +53,14 @@
         </ul>
       </section>
       <section class="post">
-        <div class="avatar">
+        <div class="post__avatar">
           <img
-            class="avatar__image"
+            class="post__profile-image"
             src="https://source.unsplash.com/100x100/?faces"
             alt=""
           />
-          <h2 class="avatar__heading">Jacob Washington</h2>
-          <span class="avatar__timespan">20m ago</span>
+          <h2 class="post__heading">Jacob Washington</h2>
+          <span class="post__timespan">20m ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <div class="post__text">
@@ -90,14 +93,60 @@
       </section>
 
       <section class="post">
-        <div class="avatar">
+        <div class="post__avatar">
           <img
-            class="avatar__image"
+            class="post__profile-image"
             src="https://source.unsplash.com/100x100/?faces"
             alt=""
           />
-          <h2 class="avatar__heading">Tony Monta</h2>
-          <span class="avatar__timespan">1h ago</span>
+          <h2 class="post__heading">Kat Williams</h2>
+          <span class="post__timespan">1h ago</span>
+        </div>
+        <span class="post__burger-menu"></span>
+        <div class="post__slider">
+          <img
+            class="post__image"
+            src="https://source.unsplash.com/495x270?nature"
+            alt=""
+          />
+          <img
+            class="post__image"
+            src="https://source.unsplash.com/random/495x270"
+            alt=""
+          />
+        </div>
+
+        <div class="post__icons">
+          <span class="post__icon--thumb mr-1rem">42</span>
+          <span class="post__icon--bubble mr-1rem">9</span>
+          <span class="post__icon--share mr-1rem">27</span>
+        </div>
+        <svg
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="far"
+          data-icon="bookmark"
+          class="post__bookmark svg-inline--fa fa-bookmark"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewbox="0 0 384 512"
+        >
+          <path
+            fill="currentColor"
+            d="M336 0h-288C21.49 0 0 21.49 0 48v431.9c0 24.7 26.79 40.08 48.12 27.64L192 423.6l143.9 83.93C357.2 519.1 384 504.6 384 479.9V48C384 21.49 362.5 0 336 0zM336 452L192 368l-144 84V54C48 50.63 50.63 48 53.1 48h276C333.4 48 336 50.63 336 54V452z"
+          ></path>
+        </svg>
+      </section>
+
+      <section class="post">
+        <div class="post__avatar">
+          <img
+            class="post__profile-image"
+            src="https://source.unsplash.com/100x100/?faces"
+            alt=""
+          />
+          <h2 class="post__heading">Toni Monta</h2>
+          <span class="post__timespan">1h ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <div class="post__text">
@@ -126,19 +175,19 @@
       </section>
 
       <section class="post">
-        <div class="avatar">
+        <div class="post__avatar">
           <img
-            class="avatar__image"
+            class="post__profile-image"
             src="https://source.unsplash.com/100x100/?faces"
             alt=""
           />
-          <h2 class="avatar__heading">Jacob Washington</h2>
-          <span class="avatar__timespan">20m ago</span>
+          <h2 class="post__heading">Jessica Thompson</h2>
+          <span class="post__timespan">2h ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <img
           class="post__image"
-          src="https://source.unsplash.com/random/495x270"
+          src="https://source.unsplash.com/495x270?art"
           alt=""
         />
         <div class="post__icons">
@@ -164,25 +213,25 @@
       </section>
 
       <section class="post">
-        <div class="avatar">
+        <div class="post__avatar">
           <img
-            class="avatar__image"
+            class="post__profile-image"
             src="https://source.unsplash.com/100x100/?faces"
             alt=""
           />
-          <h2 class="avatar__heading">Jacob Washington</h2>
-          <span class="avatar__timespan">20m ago</span>
+          <h2 class="post__heading">Dustin Brant</h2>
+          <span class="post__timespan">4h ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <img
           class="post__image"
-          src="https://source.unsplash.com/random/495x270"
+          src="https://source.unsplash.com/495x270/?berlin"
           alt=""
         />
         <div class="post__icons">
-          <span class="post__icon--thumb mr-1rem">17</span>
-          <span class="post__icon--bubble mr-1rem">2</span>
-          <span class="post__icon--share mr-1rem"></span>
+          <span class="post__icon--thumb mr-1rem">238</span>
+          <span class="post__icon--bubble mr-1rem">14</span>
+          <span class="post__icon--share mr-1rem">4</span>
         </div>
         <svg
           aria-hidden="true"
@@ -202,7 +251,7 @@
       </section>
     </main>
 
-    <footer class="footer navigation">
+    <footer class="footer navigation" role="navigation" aria-label="main">
       <a href="home.html"
         ><i class="navigation__icon--grey fa fa-home fa-lg"
           ><span class="sr-only">Home</span></i
@@ -215,17 +264,17 @@
       >
       <a href="generalProfile.html"
         ><i class="text--white navigation__icon--plus fa fa-plus fa-lg"
-          ><span class="sr-only">Plus</span></i
+          ><span class="sr-only">Create post</span></i
         ></a
       >
       <a href="alert.html"
         ><i class="navigation__icon--grey fa fa-bell fa-lg"
-          ><span class="sr-only">Bell</span></i
+          ><span class="sr-only">Notifications</span></i
         ></a
       >
       <a href="profile.html"
         ><i class="navigation__icon--grey fa fa-user-circle fa-lg"
-          ><span class="sr-only">Profile</span></i
+          ><span class="sr-only">Your profile</span></i
         ></a
       >
     </footer>
