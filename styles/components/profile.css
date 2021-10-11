@@ -76,6 +76,15 @@
   background-color: var(--color-primary-social-pink);
 }
 
+.profile__filter-posts {
+  display: flex;
+  margin-bottom: 11px !important;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 /* Following classes can be found under generalprofile.html and are yet not BEM'ed */
 
 .card-name--general-profile {
@@ -96,13 +105,4 @@
 
 .card-follow-button:hover {
   background-color: transparent;
-}
-
-.filter-posts {
-  display: flex;
-  margin-bottom: 11px !important;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 0.9rem;
-  font-weight: 500;
 }
