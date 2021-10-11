@@ -1,18 +1,18 @@
-.content-container {
+.newsfeed__container {
     height: 140px;
     width: 100px;
     position: relative;
     margin-right: 0.5rem;
 }
 
-.content-container__image {
+.newsfeed__image {
     max-width: 100%;
     max-height: 100%;
     display: block;
     border-radius: 16px;
 }
 
-.content-container__wrapper {
+.newsfeed__wrapper {
     width: 2rem;
     height: 2rem;
     background: var(--color-primary-gradient);
@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.content-container__wrapper--avatar {
+.newsfeed__avatar {
     max-width: 95%;
     max-height: 95%;
     display: block;

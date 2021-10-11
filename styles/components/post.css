@@ -9,7 +9,7 @@
   gap: 1.5rem;
 }
 
-.avatar {
+.post__avatar {
   grid-row: 1 / 2;
   grid-column: 1 / 2;
   display: flex;
@@ -18,7 +18,7 @@
   align-content: flex-start;
 }
 
-.avatar__image {
+.post__profile-image {
   display: inline-block;
   width: 2rem;
   height: auto;
@@ -26,12 +26,12 @@
   margin-right: 1.5rem;
 }
 
-.avatar__heading {
+.post__heading {
   font-size: 0.8rem;
   font-weight: 700;
 }
 
-.avatar__timespan {
+.post__timespan {
   font-size: 0.75rem;
   color: var(--color-secondary-lighter-grey);
 }

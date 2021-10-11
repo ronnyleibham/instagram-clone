@@ -12,9 +12,10 @@
   <body>
     <header class="header px-1-5rem">
       <h1>Good Morning, Alex.</h1>
-      <div class="icon-container">
-        <i class="icon-container__icon fa fa-envelope"> </i>
-        <span class="icon-container__badge"></span>
+      <div class="header__icon-container">
+        <i class="header__icon fa fa-envelope"> </i>
+        <span class="header__badge"></span>
+        <span class="sr-only">You've got a new notification</span>
       </div>
     </header>
 
@@ -22,80 +23,82 @@
       <section class="newsfeed">
         <ul class="newsfeed__list">
           <li>
-            <div class="content-container">
-              <img
-                class="content-container__image"
+            <div class="newsfeed__container">
+              <img 
+                class="newsfeed__image"
                 src="https://source.unsplash.com/200x280?nature"
-                alt="newsfeed image"
+                alt=""
               />
-              <div class="content-container__wrapper">
+              <div class="newsfeed__wrapper">
                 <img
-                  class="content-container__wrapper--avatar"
+                  class="newsfeed__avatar"
                   src="https://source.unsplash.com/100x100/?men"
-                  alt="newsfeed user"
+                  alt=""
                 />
               </div>
             </div>
           </li>
           <li>
-            <div class="content-container">
+            <div class="newsfeed__container">
               <img
-                class="content-container__image"
+                class="newsfeed__image"
                 src="https://source.unsplash.com/200x280?airplane"
-                alt="newsfeed image"
+                alt=""
               />
-              <div class="content-container__wrapper">
+              <div class="newsfeed__wrapper">
                 <img
-                  class="content-container__wrapper--avatar"
+                  class="newsfeed__avatar"
                   src="https://source.unsplash.com/100x100/?women"
-                  alt="newsfeed user"
+                  alt=""
                 />
               </div>
             </div>
           </li>
           <li>
-            <div class="content-container">
+            <div class="newsfeed__container">
               <img
-                class="content-container__image"
+                class="newsfeed__image"
                 src="https://source.unsplash.com/200x280?car"
-                alt="newsfeed image"
+                alt=""
               />
-              <div class="content-container__wrapper">
+              <div class="newsfeed__wrapper">
                 <img
-                  class="content-container__wrapper--avatar"
+                  class="newsfeed__avatar"
                   src="https://source.unsplash.com/100x100/?boy"
-                  alt="newsfeed user"
+                  alt=""
                 />
               </div>
             </div>
           </li>
           <li>
-            <div class="content-container">
+            <div class="newsfeed__container">
               <img
-                class="content-container__image"
+                class="newsfeed__image"
                 src="https://source.unsplash.com/200x280?family"
-                alt="newsfeed image"
+                alt=""
               />
-              <div class="content-container__wrapper">
+              <div class="newsfeed__wrapper">
                 <img
-                  class="content-container__wrapper--avatar"
+                  class="newsfeed__avatar"
                   src="https://source.unsplash.com/100x100/?plumber"
-                  alt="newsfeed user"
+                  alt=""
                 />
               </div>
             </div>
           </li>
         </ul>
       </section>
+
+      
       <section class="post">
-        <div class="avatar">
+        <div class="post__avatar">
           <img
-            class="avatar__image"
+            class="post__profile-image"
             src="https://source.unsplash.com/100x100/?faces"
             alt=""
           />
-          <h2 class="avatar__heading">Jacob Washington</h2>
-          <span class="avatar__timespan">20m ago</span>
+          <h2 class="post__heading">Jacob Washington</h2>
+          <span class="post__timespan">20m ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <div class="post__text">
@@ -128,14 +131,14 @@
       </section>
 
       <section class="post">
-        <div class="avatar">
+               <div class="post__avatar">
           <img
-            class="avatar__image"
-            src="https://source.unsplash.com/100x100/?student"
+            class="post__profile-image"
+            src="https://source.unsplash.com/100x100/?faces"
             alt=""
           />
-          <h2 class="avatar__heading">Kat Williams</h2>
-          <span class="avatar__timespan">1h ago</span>
+          <h2 class="post__heading">Kat Williams</h2>
+          <span class="post__timespan">1h ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <div class="post__slider">
@@ -174,14 +177,14 @@
       </section>
 
       <section class="post">
-        <div class="avatar">
+               <div class="post__avatar">
           <img
-            class="avatar__image"
-            src="https://source.unsplash.com/100x100/?photographer"
+            class="post__profile-image"
+            src="https://source.unsplash.com/100x100/?faces"
             alt=""
           />
-          <h2 class="avatar__heading">Tony Monta</h2>
-          <span class="avatar__timespan">1h ago</span>
+          <h2 class="post__heading">Toni Monta</h2>
+          <span class="post__timespan">1h ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <div class="post__text">
@@ -210,14 +213,14 @@
       </section>
 
       <section class="post">
-        <div class="avatar">
+               <div class="post__avatar">
           <img
-            class="avatar__image"
+            class="post__profile-image"
             src="https://source.unsplash.com/100x100/?faces"
             alt=""
           />
-          <h2 class="avatar__heading">Jacob Washington</h2>
-          <span class="avatar__timespan">20m ago</span>
+          <h2 class="post__heading">Jessica Thompson</h2>
+          <span class="post__timespan">2h ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <img
@@ -248,14 +251,14 @@
       </section>
 
       <section class="post">
-        <div class="avatar">
+               <div class="post__avatar">
           <img
-            class="avatar__image"
-            src="https://source.unsplash.com/100x100/?teen"
+            class="post__profile-image"
+            src="https://source.unsplash.com/100x100/?faces"
             alt=""
           />
-          <h2 class="avatar__heading">Dustin Grant</h2>
-          <span class="avatar__timespan">3h ago</span>
+          <h2 class="post__heading">Dustin Brant</h2>
+          <span class="post__timespan">4h ago</span>
         </div>
         <span class="post__burger-menu"></span>
         <img
@@ -284,22 +287,23 @@
           ></path>
         </svg>
       </section>
+
     </main>
 
-    <footer class="footer navigation">
+    <footer class="footer navigation" role="navigation" aria-label="main">
       <a href="home.html"><i class="text--white fa fa-home fa-lg"><span class="sr-only">Home</span></i></a>
       <a href="search.html"><i class="navigation__icon--grey fa fa-search fa-lg"
         ><span class="sr-only">Search</span></i
       ></a>
       <a href="generalProfile.html"><i class="navigation__icon--plus navigation__icon--grey fa fa-plus fa-lg"
-        ><span class="sr-only">Plus</span></i
+        ><span class="sr-only">Create post</span></i
       ></a>
-      <a href="alert.html"<i class="navigation__icon--grey fa fa-bell fa-lg"
-        ><span class="sr-only">Bell</span></i
+      <a href="alert.html"><i class="navigation__icon--grey fa fa-bell fa-lg"
+        ><span class="sr-only">Notifications</span></i
       ></a>
       <a href="profile.html"
         ><i class="navigation__icon--grey fa fa-user-circle fa-lg"
-          ><span class="sr-only">Profile</span></i
+          ><span class="sr-only">Your profile</span></i
         ></a
       >
     </footer>

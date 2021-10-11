@@ -1,9 +1,9 @@
-.section-profile {
+.profile {
   width: 100%;
   text-align: center;
 }
 
-.img-profile {
+.profile__card-img {
   display: block;
   max-height: 180px;
   margin-left: auto;
@@ -17,28 +17,20 @@
   background-clip: content-box, border-box;
 }
 
-.card--profile {
+.profile__card {
   position: relative;
   top: -90px;
   width: 100%;
 }
 
-.card--name {
+.profile__card-name {
   display: block;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.card-name--general-profile {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  margin-right: 20px;
-  margin-left: 50px;
-}
-
-.card--city {
+.profile__card-city {
   display: block;
   font-size: 0.9rem;
   font-weight: 500;
@@ -46,7 +38,7 @@
   margin-bottom: 10px;
 }
 
-.card--slogan {
+.profile__card-slogan {
   display: block;
   font-size: 0.9rem;
   font-weight: 500;
@@ -54,7 +46,7 @@
   margin-bottom: 10px;
 }
 
-.card-social-infos {
+.profile__card-social-infos {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,26 +54,43 @@
   margin-top: -70px;
 }
 
-.card-list-item {
+
+.profile__card-list {
   padding: 0;
   list-style: none;
 }
 
-.card-list-item--li {
+.profile__card-list-item {
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--color-secondary-lighter-grey);
 }
 
-.card-edit-profile-button {
+
+
+.profile__edit-profile-button {
   padding: 10px 30px;
   border: 1px solid;
   border-radius: 30px;
   border-color: var(--color-secondary-lighter-grey);
 }
 
-.card-edit-profile-button:hover {
+
+.profile__edit-profile-button:hover {
   background-color: var(--color-primary-social-pink);
+}
+
+
+
+
+/* Following classes can be found under generalprofile.html and are yet not BEM'ed*/
+
+.card-name--general-profile {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 50px;
 }
 
 .card-follow-button {
