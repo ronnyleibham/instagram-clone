@@ -1,7 +1,7 @@
 :root {
   --color-background: #181a1c;
   --color-pure-black: #000;
-  --color-primary-white: #ffffff;
+  --color-primary-white: #fff;
   --color-primary-social-blue: #2e8af6;
   --color-primary-social-pink: #f62e8e;
   --color-primary-gradient: linear-gradient(to right, #f62e8e, #ac1af0);
@@ -10,7 +10,7 @@
   --color-secondary-lighter-grey: #727477;
 }
 
-/* 
-font-family:    "HK Grotesk" (Bold, Medium, Regular, SemiBold); 
+/*
+font-family:    "HK Grotesk" (Bold, Medium, Regular, SemiBold);
              &  "SF Pro Display" (Bold, Medium, Regular, SemiBold);
 */

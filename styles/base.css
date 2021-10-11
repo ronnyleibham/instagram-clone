@@ -8,23 +8,25 @@ body {
   color: var(--color-primary-white);
   background-color: var(--color-background);
   margin: 0;
+
   /* padding: 0 24px; */
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   height: 100vh;
   display: grid;
   grid-template-rows: 100px auto 90px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .grid--profile {
   grid-template-rows: 180px auto 90px;
 }
 
-/* Remove default padding */
+/* Remove default padding and list styles on ul, ol elements with a class attribute */
 ul[class],
 ol[class] {
   padding: 0;
+  list-style: none;
 }
 
 /* Remove default margin */
@@ -38,12 +40,6 @@ blockquote,
 dl,
 dd {
   margin: 0;
-}
-
-/* Remove list styles on ul, ol elements with a class attribute */
-ul[class],
-ol[class] {
-  list-style: none;
 }
 
 /* Inherit fonts for inputs and buttons */

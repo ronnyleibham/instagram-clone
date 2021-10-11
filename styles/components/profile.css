@@ -54,7 +54,6 @@
   margin-top: -70px;
 }
 
-
 .profile__card-list {
   padding: 0;
   list-style: none;
@@ -66,8 +65,6 @@
   color: var(--color-secondary-lighter-grey);
 }
 
-
-
 .profile__edit-profile-button {
   padding: 10px 30px;
   border: 1px solid;
@@ -75,15 +72,11 @@
   border-color: var(--color-secondary-lighter-grey);
 }
 
-
 .profile__edit-profile-button:hover {
   background-color: var(--color-primary-social-pink);
 }
 
-
-
-
-/* Following classes can be found under generalprofile.html and are yet not BEM'ed*/
+/* Following classes can be found under generalprofile.html and are yet not BEM'ed */
 
 .card-name--general-profile {
   font-size: 20px;
