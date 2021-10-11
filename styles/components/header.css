@@ -27,6 +27,12 @@
 .header--search {
   justify-content: center;
 }
+.header--post-View {
+  display: grid;
+  grid-template-columns: 50px auto 50px;
+  align-items: center;
+  text-align: center;
+}
 
 .icon-container {
   display: flex;

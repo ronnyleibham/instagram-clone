@@ -13,6 +13,9 @@
 .text--blue {
   color: var(--color-primary-social-blue);
 }
+.text--white {
+  color: var(--color-primary-white);
+}
 
 .text--underline {
   text-decoration: underline;
@@ -35,6 +38,10 @@
 
 .px-1-5rem {
   padding: 0 1.5rem;
+}
+
+.align-self-center {
+  align-self: center;
 }
 
 .fw-500 {
@@ -63,4 +70,9 @@
 .grayfilter {
   filter: grayscale(50%);
   color: var(--color-secondary-lighter-grey);
+}
+
+.center-xy-grid {
+  justify-self: center;
+  align-self: center;
 }

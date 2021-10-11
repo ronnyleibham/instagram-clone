@@ -5,6 +5,13 @@
   bottom: 0;
 }
 
+.footer__post-view {
+  display: felx;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
 .navigation {
   display: flex;
   justify-content: space-around;
@@ -15,8 +22,16 @@
   color: var(--color-secondary-lighter-grey);
 }
 
+.fa:hover {
+  color: white;
+}
+
 .navigation__icon--plus {
   background: var(--color-primary-gradient);
   padding: 1rem;
   border-radius: 50%;
+}
+
+.navigation__list {
+  list-style: none;
 }
